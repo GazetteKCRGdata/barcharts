@@ -1,0 +1,6 @@
+var linnstdJSON = [
+{"disease":"Chlamydia","total-cases":986,"incidence-per-capita":466.8},
+{"disease":"Gonorrhea","total-cases":230,"incidence-per-capita":108.9},
+{"disease":"HIV","total-cases":13,"incidence-per-capita":6.2},
+{"disease":"Syphilis","total-cases":6,"incidence-per-capita":3.3}
+];

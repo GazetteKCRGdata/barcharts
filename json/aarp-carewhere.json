@@ -1,0 +1,5 @@
+var aarpCareWhereJSON = [
+{"carewhere":"At home with assistance","percent":71},
+{"carewhere":"Assisted living facilty (19%) or other","percent":22},
+{"carewhere":"Not sure","percent":7}
+];
