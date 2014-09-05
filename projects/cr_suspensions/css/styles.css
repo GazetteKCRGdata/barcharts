@@ -1,23 +1,40 @@
 body{
-	max-width:600px;
+	width: 100%;
+	max-width: 700px;
 	margin:0px auto;
 	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
 }
 p{
 	margin:0px;
 }
+
 .container{
-	margin-top:1%;
+	margin-top:0%;
 	width:100%;
 	margin-bottom:1%;
+	width: 100%;
+	padding: 0;
 }
+
+.main-header {
+	margin-top: 0px;
+}
+
 /* help selecting bar colors: http://stylesheet.readthedocs.org/en/latest/general.html#colors */
-.bar{
-	height:30px;
+.bar, .bar-two{
+	height:20px;
 	margin-bottom:2px;
-	background-color: lightblue;
 	float: left;
-	z-index: 10
+	z-index: 10;
+	clear: both;
+}
+
+.bar {
+	background-color: #72bcd4;
+}
+
+.bar-two {
+	background-color: #d48a72;
 }
 tr{
 	width:100%;
@@ -47,10 +64,32 @@ tr{
 .chart-container{
 	z-index: 9;
 }
+
+.chart-container table {
+	width: 100%;
+}
+
 .scale{
 	z-index: -1;
 	width:100%;
 	color: gray;
+}
+
+.categories {
+	color: #555;
+	clear: both;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.details {
+	color: #555;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.number {
+	text-align: center;
 }
 .chunk{
 	width:25%;
@@ -65,4 +104,5 @@ tr{
 	float:right;
 	color:gray;
 	font-size:12px;
+	clear: both;
 }
