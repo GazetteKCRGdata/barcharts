@@ -1,0 +1,6 @@
+var iaImmShareJSON = [
+{"iaImmShare":"Iowa population","percent":4.3},
+{"iaImmShare":"Working-age pop.","percent":5.0},
+{"iaImmShare":"Labor force","percent":5.4},
+{"iaImmShare":"Economic output","percent":4.5}
+];
