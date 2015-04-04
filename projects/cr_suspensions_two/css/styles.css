@@ -1,0 +1,128 @@
+body{
+	width: 100%;
+	max-width: 700px;
+	margin:0px auto;
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	color: #555;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 20px;
+	margin-top: 30px;
+	font-weight: bold
+}
+
+p {
+	margin:0px;
+	font-size: 15px;
+  	line-height: 23px;
+  	color: #555;
+}
+
+a {
+	color: #0060A9;
+}
+
+.container{
+	margin-top:0%;
+	width:100%;
+	margin-bottom:1%;
+	width: 100%;
+	padding: 0;
+}
+
+.main-header {
+	margin-top: 0px;
+}
+
+.description {
+	margin-bottom: 10px;
+}
+
+
+.students-percent {
+	color: #999;
+}
+
+.bar, .bar-two{
+	height:20px;
+	margin-bottom:2px;
+	margin-left: 10px;
+	float: left;
+	z-index: 10;
+	clear: both;
+}
+
+.bar {
+	background-color: #72bcd4;
+}
+
+.bar-two {
+	background-color: #d48a72;
+}
+
+tr{
+	width:100%;
+	height:16px;
+
+}
+.chart-container{
+	z-index: 9;
+}
+
+.categories {
+	color: #555;
+	clear: both;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.details {
+	color: #555;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.number {
+	text-align: right;
+}
+
+.source{
+	float:right;
+	color:gray;
+	font-size:12px;
+	clear: both;
+}
+
+@media(max-width:550px) {
+	.container {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.source {
+		float: left;
+	}
+
+	h2 {
+		font-size: 22px;
+		line-height: 30px;
+}
+
+	h3 {
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	p {
+		margin:0px;
+		font-size: 13px;
+	  	line-height: 20px;
+	}
+}

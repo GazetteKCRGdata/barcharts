@@ -1,0 +1,48 @@
+var student_data = [
+	{
+		'category': 'Total Enrollment',
+		'description': 'This graph shows the total enrollment at the Cedar Rapids Community School District and percentage for each race.',
+		'data': [
+			{"race":"White","total":"11,915","percent":"71.1%"},
+			{"race":"Black","total":2430,"percent":"14.5%"},
+			{"race":"Hispanic","total":980,"percent":"5.9%"},
+			{"race":"Asian","total":331,"percent":"2%"}
+		],
+	},{
+		'category': 'Suspensions',
+		'description': 'This graph shows the suspension rates for each race. A total of 743 students were suspended. The percentage represents the number of students out of 743 who were suspended.',
+		'data': [
+			{"race":"White","total":364,"percent":"49%"},
+			{"race":"Black","total":337,"percent":"45.3%"},
+			{"race":"Hispanic","total":23,"percent":"2%",},
+			{"race":"Asian","total":7,"percent":"0.9%"}
+		],
+	},{
+		'category': 'Graduation Rates',
+		'description': 'This graph shows graduation rates for each race. A total of 1108 students graduated in 2013-14. The "Students" column shows how many students graduated, how many were eligible and the percentage that graduated for that race. The "Percent" column represents the number of students who graduated compared to the student body as a whole.',
+		'data': [
+			{"race":"White","total":738,"graduated_eligible":847,"graduated_percent":"87.1%","percent":"78.3%"},
+			{"race":"Black","total":94,"graduated_eligible":127,"graduated_percent":"74%","percent":"10%"},
+			{"race":"Hispanic","total":44,"graduated_eligible":58,"graduated_percent":"75.9%","percent":"4.7%"},
+			{"race":"Asian","total":22,"graduated_eligible":24,"graduated_percent":"91.7%","percent":"2.3"}
+		],
+	},{
+		'category': 'IEPs',
+		'description': 'This graph shows the numbers of students with Individualized Education Programs (IEPs), one type of special education program.',
+		'data': [
+			{"race":"White","percent":"68.3%"},
+			{"race":"Black","percent":"22%",},
+			{"race":"Hispanic","percent":"4.7%"},
+			{"race":"Asian","percent":"1%"}
+		],
+	},{	
+		'category': 'PACT',
+		'description': "This graph shows the numbers of students in the district's gifted education program, called the Program for Academic and Creative Talent (PACT).",
+		'data': [
+			{"race":"White","total":2365,"percent":"86.5%"},
+			{"race":"Black","total":127,"percent":"6.2%"},
+			{"race":"Hispanic","total":64,"percent":"2.3%"},
+			{"race":"Asian","total":114,"percent":"4.2%"}
+		]
+	}
+]
