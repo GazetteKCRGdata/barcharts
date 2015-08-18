@@ -60,7 +60,7 @@ function buildBar(row){
 		}
 		bar_string += "<td class='number'>" + val['percent'] + "</td>";
 		bar_string += "<td>";
-		bar_string += "<div class='" + bar + "' style='width:" + val['percent'] + "%;'></div>"
+		bar_string += "<div class='" + bar + "' style='width:" + val['percent'] + ";'></div>"
 		bar_string += "</td>"
 		bar_string += "</tr>"
 	});
