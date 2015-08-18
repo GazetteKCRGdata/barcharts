@@ -24,7 +24,7 @@ var student_data = [
 			{"race":"White","total":738,"graduated_eligible":847,"graduated_percent":"87.1%","percent":"78.3%"},
 			{"race":"Black","total":94,"graduated_eligible":127,"graduated_percent":"74%","percent":"10%"},
 			{"race":"Hispanic","total":44,"graduated_eligible":58,"graduated_percent":"75.9%","percent":"4.7%"},
-			{"race":"Asian","total":22,"graduated_eligible":24,"graduated_percent":"91.7%","percent":"2.3"}
+			{"race":"Asian","total":22,"graduated_eligible":24,"graduated_percent":"91.7%","percent":"2.3%"}
 		],
 	},{
 		'category': 'IEPs',
