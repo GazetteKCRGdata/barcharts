@@ -1,0 +1,30 @@
+var data = {
+	"streets": [
+		{"value":"Second Street","tickets":20984,"percent":16.8},
+		{"value":"Second Avenue","tickets":11579,"percent":9.3},
+		{"value":"Third Avenue","tickets":10332,"percent":8.3},
+		{"value":"Third Avenue Bridge","tickets":8834,"percent":7.1},
+		{"value":"Third Street","tickets":7185,"percent":5.8}
+	],
+	"plates": [
+		{"value":"495ZSO","tickets":411,"amount":2860},
+		{"value":"110BRX","tickets":398,"amount":2903},
+		{"value":"900XTT","tickets":355,"amount":2445},
+		{"value":"188ZRE","tickets":345,"amount":2420},
+		{"value":"23YO12","tickets":279,"amount":2093}
+	],
+	"states": [
+		{"value":"Iowa","tickets":118006,"percent":94.7},
+		{"value":"Illinois","tickets":2069,"percent":1.7},
+		{"value":"Wisconsin","tickets":571,"percent":0.5},
+		{"value":"Minnesota","tickets":569,"percent":0.5},
+		{"value":"Missouri","tickets":353,"percent":0.3}
+	],
+	"amounts":[
+		{"value":"$7.50","tickets":97174,"percent":78.0},
+		{"value":"$25.00","tickets":20852,"percent":16.7},
+		{"value":"$0 / warning","tickets":5544,"percent":4.4},
+		{"value":"$100.00","tickets":908,"percent":0.7},
+		{"value":"$200.00","tickets":112,"percent":0.1}
+	]
+}

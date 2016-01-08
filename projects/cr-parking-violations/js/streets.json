@@ -1,0 +1,133 @@
+var geojson = [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": 'Third Street',
+        "fill": "#FF0000",
+        "stroke": "#f781bf",
+        "stroke-width": 7,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.66754007339478,
+            41.979288797415535
+          ],
+          [
+            -91.65897846221924,
+            41.97099355672711
+          ],
+          [
+            -91.65698289871216,
+            41.969047209166135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": 'Third Avenue Bridge',
+        "stroke": "#ff7f00",
+        "stroke-width": 7,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.66816234588623,
+            41.976305825651544
+          ],
+          [
+            -91.669020652771,
+            41.975875117650126
+          ],
+          [
+            -91.66987895965576,
+            41.97547631134794
+          ],
+          [
+            -91.67174577713013,
+            41.97471059624735
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": 'Third Avenue',
+        "stroke": "#4daf4a",
+        "stroke-width": 7,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.66809797286986,
+            41.97638558607289
+          ],
+          [
+            -91.65953636169432,
+            41.98125078287902
+          ],
+          [
+            -91.64249897003174,
+            41.99104385501471
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": 'Second Avenue',
+        "stroke": "#377eb8",
+        "stroke-width": 7,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.66876316070557,
+            41.977358655170086
+          ],
+          [
+            -91.66082382202147,
+            41.981888813906075
+          ],
+          [
+            -91.64211273193358,
+            41.992574883209436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": 'Second Street',
+        "stroke": "#e41a1c",
+        "stroke-width": 7,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.6703939437866,
+            41.980325626533876
+          ],
+          [
+            -91.66608095169067,
+            41.976194160893826
+          ]
+        ]
+      }
+    }
+]

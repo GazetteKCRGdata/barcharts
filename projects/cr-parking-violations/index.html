@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Breaking down parking violations in Cedar Rapids
+	</title>
+
+	<!-- <meta http-equiv="refresh" content="300"> -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<link rel="shortcut icon" href="http://www.thegazette.com/images/glogo.png" />
+	<!-- Mobile meta tags-->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="cleartype" content="on">
+	<link rel="apple-touch-icon" href="http://www.thegazette.com/images/glogo.png"/>
+    
+	<!-- Social meta tags-->
+	<meta property="og:type" content="article"/>
+	<meta property="og:site_name" content="The Gazette"/>
+	<meta property="twitter:site" content="@gazettedotcom">
+	<meta property="twitter:image" content="http://www.thegazette.com/images/glogo.png">
+
+	<!--CSS INCLUDES-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/lib/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+<div class="table-container">
+	<div id="street-map-container" style="display:none;">
+		<div id="map"></div>
+	</div>
+
+	<table class="table">
+	  <thead>
+	    <tr>
+	    	<th>Tickets</th>
+	    	<th>Percent</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+</div>
+
+<!--JS LOADS-->
+<script type="text/javascript" src="js/lib/pym.min.js"></script>
+<script tyle="text/javascript" src='js/lib/mapbox.js'></script>
+<script type="text/javascript" src="js/data.json"></script>
+<script type="text/javascript" src="js/streets.json"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script>
+	var pymChild;
+
+	$(document).ready(function(){
+	  pymChild = new pym.Child();
+	});
+</script>
+
+
+</body>
+
+</html>

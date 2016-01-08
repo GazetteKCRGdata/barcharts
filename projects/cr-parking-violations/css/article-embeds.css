@@ -1,0 +1,164 @@
+/* Float elements */
+#article-body .center, #article-body .center-no-margin, #article-body .left, #article-body .right {
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+#article-body .center {
+	float: left;
+	margin-left: -5% !important;
+	margin-right: -5% !important;
+	width: 70% !important;
+}
+
+#article-body .center-no-margin {
+    float: left;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    width: 62% !important;
+}
+	
+#article-body .left {
+    float: left;
+    margin-left: -10% !important;
+    margin-right: 15px !important;
+    width: 38% !important;
+}
+
+#article-body .right {
+    float: right;
+	margin-right: 34% !important;
+	margin-left: 15px !important;
+	width: 38% !important;
+}
+
+#article-body p .left, #article-body p .right {
+    width: 50% !important;
+}
+
+#article-body p .right {
+    margin-right: -5% !important;
+}
+
+#article-body p .center {
+	margin-left: -5% !important;
+	margin-right: -5% !important;
+	width: 110% !important;
+}
+
+#article-body p .center-no-margin {
+	width: 100% !important;
+}
+
+/* Add a subhead to a chart, map, etc. */
+.embed-subhead {
+	margin-bottom: 20px !important;
+	font-size: 0.9em !important;
+	line-height: 1.4em !important;
+	width: 96% !important;
+	color: #777;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+/* Responsive iframes */
+.iframe-responsive-container {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.iframe-responsive-container iframe {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+	/*height: 100% !important;*/
+    width: 100% !important;
+    clear: both;
+    margin-bottom: 0px;
+}
+
+/* If you want to open an iframe in a new window on mobile and place a static image instead */
+.iframe-open-window {
+    z-index: 2;
+    margin-top: -35px;
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    text-align: left;
+    background-color: #0060A9;
+    color: #FFF;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.iframe-open-window-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+/* Styles for the chart embeds on articles. i.e. the chart header, about text, etc. */
+.chart-container h3 {
+	margin-left: 2%;
+	width: 98%;
+	clear: both;
+}
+
+.chart-container .chart {
+	float: left;
+}
+
+.table-container h3 {
+	margin-left: 0%;
+	width: 100%;
+	clear: both;
+}
+
+.chart-container p, .table-container p {
+	margin-top: 0px;
+	float: left;
+	width: 94% !important;
+	margin-left: 3% !important;
+	margin-right: 3% !important;
+	color: #888;
+	font-size: 13px !important;
+	line-height: 18px !important;
+	clear: both;
+}
+
+@media (max-width: 1100px) {
+	#article-body .center, #article-body .center-no-margin {
+		margin-left: 0% !important;
+		margin-right: 0% !important;
+		width: 62% !important;
+	}
+
+	#article-body .left {
+    	margin-left: 0% !important;
+    	width: 38% !important;
+	}
+
+	#article-body p .right {
+    	margin-right: 0% !important;
+	}
+
+	#article-body p .center, #article-body p .center-no-margin {
+		margin-left: 0% !important;
+		margin-right: 0% !important;
+		width: 100% !important;
+	}
+
+}
+
+@media (max-width: 850px) {
+	/* Float elements */
+	#article-body .left, #article-body .center, #article-body .right, #article-body .center-no-margin, #article-body p .left, #article-body p .right, #article-body p .center, #article-body p .center-no-margin {
+		float: left;
+		margin-left: 0% !important;
+		margin-right: 0% !important;
+		width: 100% !important;
+	}
+
+}
